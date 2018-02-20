@@ -24,7 +24,7 @@ public class QuadraticCalculatorTest {
         int inputX = 5;
         int inputY = 5;
         long output;
-        long expected = 20;
+        long expected = 0;
         double delta = .1;
 
         output = QuadraticCalculator.quadraticMinusSample(inputX,inputY);
